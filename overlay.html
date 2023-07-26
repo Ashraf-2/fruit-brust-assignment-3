@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Include Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Include DaisyUI styles -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/full.css" rel="stylesheet">
+  <title>Gradient Overlay</title>
+</head>
+<body>
+  <div class="relative">
+    <!-- Your image -->
+    <img src="./images/fruit1.png" alt="Your Image" >
+    <!-- Gradient overlay -->
+    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black"></div>
+    <!-- DaisyUI helpers for positioning the overlay -->
+    <div class="absolute bottom-0 left-0 p-4">
+      <h1 class="text-white text-2xl font-semibold">Image Overlay Title</h1>
+      <p class="text-white mt-2">Some additional text goes here</p>
+    </div>
+  </div>
+</body>
+</html>
