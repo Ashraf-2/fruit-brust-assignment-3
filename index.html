@@ -42,11 +42,11 @@
                     </ul>
                 </div>
                 <!-- start -->
-                <div class="navbar-center ">
-                    <img class="w-1/5" src="./images/logo.png" alt="logo-pic">
+                <div class="navbar-center flex-1 justify-between ">
+                    <img  src="./images/logo.png" alt="logo-pic">
                     <a class="btn btn-ghost normal-case text-xl">Fruit Brust</a>
 
-                    <div class="dropdown text-right">
+                    <div class="dropdown text-right justify-center">
 
                         <label tabindex="0" class="btn btn-ghost md:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -56,11 +56,11 @@
                             </svg>
                         </label>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Item 1</a></li>
-                            <li><a>Item 3</a></li>
-                            <li><a>Item 3</a></li>
-                            <li><a>Item 3</a></li>
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box right-10 w-52 text-black">
+                            <li><a>Home</a></li>
+                            <li><a>Abous Us</a></li>
+                            <li><a>Shop 3</a></li>
+                            <li><a>All Fruits</a></li>
                         </ul>
                     </div>
 
@@ -71,7 +71,8 @@
                 <div class="navbar-end hidden sm:px-4 sm:flex">
                     <!-- <a class="btn">Button</a> -->
                     <i class="fa-solid fa-magnifying-glass -mr-48 z-10 text-black"></i>
-                    <input type="text" class="rounded-lg px-3 font-light text-black outline-none" placeholder="Search here">
+                    <input type="text" class="rounded-lg px-3 font-light text-black outline-none"
+                        placeholder="Search here">
                 </div>
             </div>
         </nav>
@@ -154,7 +155,8 @@
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="flex-1">
                     <h1 class="text-5xl text-center md:text-left font-extrabold mb-4">Deal of the day</h1>
-                    <p class="w-full md:w-2/3 text-center md:text-left text-sm mb-3">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
+                    <p class="w-full md:w-2/3 text-center md:text-left text-sm mb-3">Contrary to popular belief, is not
+                        simply random text. It has roots in a piece of classical Latin
                         literature from 45 BC, making it over 2000 years old.</p>
                 </div>
                 <!-- countdown -->
@@ -379,8 +381,8 @@
                 </div>
 
 
-                
-                
+
+
 
 
                 <!-- 3rd card -->
@@ -397,6 +399,70 @@
 
             </div>
 
+        </section>
+
+        <!-- team section -->
+        <section>
+            <div class="hero min-h-screen w-10/12 mx-auto" style="background-image: url(./images/team.png); ">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div>
+                        <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
+                        <p class="mb-5 text-sm md:mx-40">Contrary to popular belief, is not simply random text. It has roots in a
+                            piece
+                            of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                        <!-- <button class="btn btn-primary">Get Started</button> -->
+
+
+                        <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                            <!-- m-1 -->
+                            <div class="flex flex-col justify-center items-center text-center ">
+                                <img class="w-32"  src="./images/member1.png" alt="member-1">
+                                <h3 class="text-2xl font-medium mt-3">Awlad Hossain</h3>
+                                <p>Fruits Expert</p>
+                                <div class="flex flex-row gap-2 text-center mt-3">
+                                    <i class="fa-brands fa-facebook" style="color: #F85559;"></i>
+                                    <i class="fa-brands fa-twitter" style="color: #F85559;"></i>
+                                    <i class="fa-brands fa-linkedin" style="color: #F85559;"></i>
+                                </div>
+                            </div>
+                            <!-- m-2 -->
+                            <div class="flex flex-col justify-center items-center text-center ">
+                                <img class="w-32" src="./images/member2.png" alt="member-2">
+                                <h3 class="text-2xl font-medium mt-3">Safia Chowdhury</h3>
+                                <p>Fruits Expert</p>
+                                <div class="flex flex-row gap-2 text-center mt-3">
+                                    <i class="fa-brands fa-facebook" style="color: #F85559;"></i>
+                                    <i class="fa-brands fa-twitter" style="color: #F85559;"></i>
+                                    <i class="fa-brands fa-linkedin" style="color: #F85559;"></i>
+                                </div>
+                            </div>
+                            <!-- m-3 -->
+                            <div class="flex flex-col justify-center items-center  text-center ">
+                                <img class="w-32" src="./images/member3.png" alt="member-3">
+                                <h3 class="text-2xl font-medium mt-3">Rokib Hossain</h3>
+                                <p>Fruits Expert</p>
+                                <div class="flex flex-row gap-2 text-center mt-3">
+                                    <i class="fa-brands fa-facebook" style="color: #F85559;"></i>
+                                    <i class="fa-brands fa-twitter" style="color: #F85559;"></i>
+                                    <i class="fa-brands fa-linkedin" style="color: #F85559;"></i>
+                                </div>
+                            </div>
+                            <!-- m-4 -->
+                            <div class="flex flex-col justify-center items-center text-center">
+                                <img class="w-32" src="./images/member4.png" alt="member-4">
+                                <h3 class="text-2xl font-medium mt-3">Chaity</h3>
+                                <p>Fruits Expert</p>
+                                <div class="flex flex-row gap-2 mt-3">
+                                    <i class="fa-brands fa-facebook" style="color: #F85559;"></i>
+                                    <i class="fa-brands fa-twitter" style="color: #F85559;"></i>
+                                    <i class="fa-brands fa-linkedin" style="color: #F85559;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
