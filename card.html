@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Include Tailwind CSS and DaisyUI CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@1.1.4/dist/full.css" rel="stylesheet">
+  <title>Four Cards with Modals</title>
+</head>
+<body>
+  <div class="flex flex-wrap justify-center p-4">
+    <!-- Card 1 -->
+    <div class="max-w-xs rounded overflow-hidden shadow-lg m-4">
+      <img class="w-full h-48 object-cover" src="path_to_image_1.jpg" alt="Card 1 Image">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">Card 1 Title</div>
+        <p class="text-gray-700 text-base">Card 1 Description</p>
+      </div>
+      <div class="px-6 py-4">
+        <button class="btn btn-primary" onclick="openModal('modal1')">Details</button>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <!-- Add similar HTML structure for Card 2 -->
+
+    <!-- Card 3 -->
+    <!-- Add similar HTML structure for Card 3 -->
+
+    <!-- Card 4 -->
+    <!-- Add similar HTML structure for Card 4 -->
+  </div>
+
+  <!-- Modal 1 -->
+  <div id="modal1" class="modal">
+    <div class="modal-box">
+      <div class="modal-content">
+        <h2 class="text-xl font-bold mb-4">Card 1 Details</h2>
+        <p>Card 1 details go here.</p>
+      </div>
+      <button class="modal-action btn btn-primary" onclick="closeModal('modal1')">Close</button>
+    </div>
+  </div>
+
+  <!-- Add similar modal structures for modal2, modal3, and modal4 -->
+  
+  <!-- Script to handle modal -->
+  <script>
+    function openModal(modalId) {
+      document.getElementById(modalId).classList.add('modal-open');
+    }
+
+    function closeModal(modalId) {
+      document.getElementById(modalId).classList.remove('modal-open');
+    }
+  </script>
+</body>
+</html>
